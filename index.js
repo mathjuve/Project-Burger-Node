@@ -1,7 +1,6 @@
-const { request } = require("express");
-const express = require("express");
-const uuid = require("uuid");
-const cors = require("cors");
+import express from "express";
+import { v4 } from "uuid";
+import cors from "cors";
 
 const app = express();
 const port = 3001;
@@ -37,7 +36,7 @@ app.post("/orders", (request, response) => {
   const { name, order, price } = request.body;
 
   const client = {
-    id: uuid.v4(),
+    id: v4(),
     name,
     order,
     price,
