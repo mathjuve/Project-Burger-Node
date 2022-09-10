@@ -1,8 +1,9 @@
 {
-  "name": "first-project-node",
+  "name": "project-burger",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon"
@@ -11,14 +12,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-<<<<<<< HEAD
-=======
     "cors": "^2.8.5",
->>>>>>> a15abce (implementation of CORS)
     "express": "^4.18.1",
+    "nodemon": "^2.0.19",
     "uuid": "^8.3.2"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.19"
   }
 }
