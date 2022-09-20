@@ -1,6 +1,6 @@
 # Projeto node
 
-<h2>Sistema de gerenciamento de uma hamburgueria<h2>
+<h2>Sistema back-end de gerenciamento de uma hamburgueria<h2>
   
 <img src="./assets/print.gif">
 
@@ -21,9 +21,9 @@ Foi criada as seguintes rotas
 
 <b>DELETE</b> /order/:id:Essa rota utiliza o id do pedido para deletar um pedido já feito.
 
-<b>GET<b> /order/:id: Essa rota utiliza o id do pedido para retornar apenas um pedido específico.
+<b>GET</b> /order/:id: Essa rota utiliza o id do pedido para retornar apenas um pedido específico.
 
-<b>PATCH<b> /order/:id: Essa rota utiliza o id do pedido para alterar o status do pedido recebido para "Pronto".
+<b>PATCH</b> /order/:id: Essa rota utiliza o id do pedido para alterar o status do pedido recebido para "Pronto".
 
 Exemplo📃:
 
