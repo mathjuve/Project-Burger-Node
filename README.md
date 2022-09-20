@@ -9,7 +9,7 @@
 
 ## 💻 Sobre o Projeto
 
-Esta é uma aplicação que faz o cadastro e gerenciamento dos pedidos de uma hamburgueria, utilizando 🔧: Node, Express, Uuid e Cors.
+Esta é uma aplicação que faz o cadastro e gerenciamento dos pedidos de uma hamburgueria, utilizando 🔧: <b>Node, Express, Uuid e Cors</b>.
 
 Foi criada as seguintes rotas
 
